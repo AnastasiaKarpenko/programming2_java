@@ -2,60 +2,43 @@
 import java.util.ArrayList;
 
 public class Suitcase {
-    private ArrayList<Thing>things;
-    private int weightLimit;
-    private int totalWeight;
-    
-    public Suitcase(int weightLimit) {
-        this.weightLimit = weightLimit;
+
+    private int mMaxWeight;
+    private ArrayList<Thing> things;
+
+    public Suitcase(int maxWeight) {
+        mMaxWeight = maxWeight;
         things = new ArrayList<Thing>();
-        this.totalWeight = 0;
+
     }
-    
+
     public void addThing(Thing thing) {
-        
-        for ( int i = 0; i < things.size(); i++) {
-            this.totalWeight += thing.getWeight();
-        }
-        if ((this.totalWeight + thing.getWeight()) <= this.weightLimit) {
+        if (!this.doesExceedWeight(thing)) {
             things.add(thing);
         }
-        
     }
-    
+
     public String toString() {
-       
-        String word = "";
-        for (Thing thing : things) {
-            this.totalWeight += thing.getWeight();
-        }
-        if (things.size() == 0) {
-            word = "empty";
-            return word + "(" + totalWeight + " kg)";
+
+        if (things.isEmpty()) {
+            return "empty " + "(" + this.getTotalWeight() + " kg)";
         } else if (things.size() == 1) {
-            word = " thing (";
-            return things.size() + word + totalWeight + " kg)";
+            return things.size() + " thing (" + this.getTotalWeight() + " kg)";
         } else {
-           return things.size() + " things (" + totalWeight + " kg)"; 
+            return things.size() + " things (" + this.getTotalWeight() + " kg)";
         }
-//        return things.size() + " things (" + totalWeight + " kg)";
+    }
+
+    public int getTotalWeight() {
+        int totalWeight = 0;
+        for (Thing thing : things) {
+            totalWeight += thing.getWeight();
+        }
+        return totalWeight;
     }
     
-   public void printThings () {
-       System.out.println("Your suitcase contains the following things:");
-        for (Thing t : things) {
-            System.out.println(t.getName() + "( " + t.getWeight() + " kg)");
-            totalWeight += t.getWeight();
-        }
-        System.out.println("Total weight: " + totalWeight + " kg");
-       
-   }
-   
-   public int totalWeight () {
-       
-       for (Thing thing : things) {
-           this.totalWeight += thing.getWeight();
-       }
-       return this.totalWeight;
-   }
+    public boolean doesExceedWeight (Thing thing) {
+        return (this.getTotalWeight() + thing.getWeight()) > mMaxWeight;
+    }
+
 }

@@ -1,22 +1,23 @@
 
 public class Thing {
-    private String name;
-    private int weight;
+    private String mName;
+    private int mWeight;
     
-    public Thing (String name, int weight) {
-        this.name = name;
-        this.weight = weight;                
+    public Thing( String name, int weight) {
+        mName = name;
+        mWeight = weight;
     }
     
     public String getName() {
-        return this.name;
+        return mName;
     }
-        
+    
     public int getWeight() {
-        return this.weight;
+        return mWeight;
     }
     
     public String toString() {
         return this.getName() + "(" + this.getWeight() + " kg)";
     }
+    
 }
