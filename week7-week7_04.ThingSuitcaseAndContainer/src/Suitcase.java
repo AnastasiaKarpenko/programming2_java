@@ -21,15 +21,15 @@ public class Suitcase {
     public String toString() {
 
         if (things.isEmpty()) {
-            return "empty " + "(" + this.getTotalWeight() + " kg)";
+            return "empty " + "(" + this.totalWeight() + " kg)";
         } else if (things.size() == 1) {
-            return things.size() + " thing (" + this.getTotalWeight() + " kg)";
+            return things.size() + " thing (" + this.totalWeight() + " kg)";
         } else {
-            return things.size() + " things (" + this.getTotalWeight() + " kg)";
+            return things.size() + " things (" + this.totalWeight() + " kg)";
         }
     }
 
-    public int getTotalWeight() {
+    public int totalWeight() {
         int totalWeight = 0;
         for (Thing thing : things) {
             totalWeight += thing.getWeight();
@@ -38,7 +38,17 @@ public class Suitcase {
     }
     
     public boolean doesExceedWeight (Thing thing) {
-        return (this.getTotalWeight() + thing.getWeight()) > mMaxWeight;
+        return (this.totalWeight() + thing.getWeight()) > mMaxWeight;
     }
+    
+    public void printThings () {
+        for (Thing thing : things) {
+            System.out.println(thing.getName() + "( " + thing.getWeight() + " kg)");
+        }
+    }
+    
+    
+    
+    
 
 }
