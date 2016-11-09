@@ -12,9 +12,8 @@ public class Main {
         suitcase.addThing(mobile);
         suitcase.addThing(brick);
 
-        System.out.println("Your suitcase contains the following things:");
-        suitcase.printThings();
-        System.out.println("Total weight: " + suitcase.totalWeight() + " kg");
+        Thing heaviest = suitcase.heaviestThing();
+        System.out.println("The heaviest thing: " + heaviest);
     }
 
 }

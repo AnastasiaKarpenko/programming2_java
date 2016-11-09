@@ -36,19 +36,35 @@ public class Suitcase {
         }
         return totalWeight;
     }
-    
-    public boolean doesExceedWeight (Thing thing) {
+
+    public boolean doesExceedWeight(Thing thing) {
         return (this.totalWeight() + thing.getWeight()) > mMaxWeight;
     }
-    
-    public void printThings () {
+
+    public void printThings() {
         for (Thing thing : things) {
-            System.out.println(thing.getName() + "( " + thing.getWeight() + " kg)");
+            System.out.println(thing.toString());
         }
     }
-    
-    
-    
-    
+
+    public Thing heaviestThing() {
+        if (things.isEmpty()) {
+            return null;
+        }
+        int heaviestWeight = 0;
+        int indexOfHeaviest = 0;
+        for (Thing thing : things) {
+            int weight = thing.getWeight();
+            if (weight > heaviestWeight) {
+                heaviestWeight = weight;
+                indexOfHeaviest = things.indexOf(thing);
+            }
+        }
+        return things.get(indexOfHeaviest);
+    }
+
+    public boolean isEmpty() {
+        return this.things.isEmpty();
+    }
 
 }
