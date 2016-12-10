@@ -12,12 +12,30 @@ public class Container {
     }
     
     public void addSuitcase(Suitcase suitcase) {
-        container.add(suitcase);
+        if (suitcase.totalWeight() + this.getTotalWeight() <= this.maximumWeight) {
+            container.add(suitcase);
+        } 
+        
         
     }
     
+    public int getTotalWeight() {
+        int totalWeight = 0;
+        for (Suitcase suitcase : container) {
+            totalWeight += suitcase.totalWeight();    
+        }
+        return totalWeight;
+    }   
+    
     public String toString() {
-        
+       return this.container.size() + " suitcases (" + this.getTotalWeight() 
+               + " kg)";
+    }
+    
+    public void printThings() {
+        for (Suitcase suitcase : container) {
+            suitcase.printThings();
+        }
     }
     
 }
