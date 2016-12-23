@@ -32,4 +32,23 @@ public class VehicleRegister {
         return true;
     }
     
+    public void printRegistrationPlates(){
+        for (RegistrationPlate plate : owners.keySet()) {
+            System.out.println(plate);
+        }
+    }
+    
+    public void printOwners() {
+        ArrayList <String> ownerNames = new ArrayList <String>();
+        for (String owner : owners.values()) {
+            if (!ownerNames.contains(owner)) {
+                ownerNames.add(owner);
+            }
+           
+        }
+        for (String name : ownerNames) {
+            System.out.println(name);
+        }
+    }
+    
 }
