@@ -13,7 +13,10 @@ public class CivilService implements NationalService {
      public void work() {
          while (daysLeft > 0) {
              daysLeft--;
+             System.out.println(daysLeft);
          }
+        
+         
      }
     
 }
