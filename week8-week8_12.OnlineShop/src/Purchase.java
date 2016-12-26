@@ -15,7 +15,7 @@ public class Purchase {
      }
      
      public void increaseAmount() {
-         this.amount ++;
+         this.amount += 1;
      }
      
      public String toString() {

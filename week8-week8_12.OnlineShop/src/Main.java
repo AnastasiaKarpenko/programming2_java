@@ -1,15 +1,19 @@
 
+import java.util.Scanner;
+
+
 public class Main {
 
     public static void main(String[] args) {
-        ShoppingBasket basket = new ShoppingBasket();
-        basket.add("milk", 3);
-        basket.add("buttermilk", 2);
-        basket.add("cheese", 5);
+    Storehouse store = new Storehouse();
+    store.addProduct("coffee", 5, 10);
+    store.addProduct("milk", 3, 20);
+    store.addProduct("milkbutter", 2, 55);
+    store.addProduct("bread", 7, 8);
 
-        basket.add("computer", 899);
-
-        basket.print();
+    Shop shop = new Shop(store, new Scanner(System.in));
+    shop.manage("Pekka");
+            
     }
 
 }

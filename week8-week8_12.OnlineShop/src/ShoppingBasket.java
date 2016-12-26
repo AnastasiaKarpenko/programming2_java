@@ -10,10 +10,11 @@ public class ShoppingBasket {
         this.basket = new HashMap<String, Purchase>();
     }
     
+    
     public void add(String product, int price) {
        if (basket.containsKey(product)) {
            basket.get(product).increaseAmount();
-       }
+       } 
        basket.put(product, new Purchase (product, 1, price));
     }
     
