@@ -14,8 +14,10 @@ public class ShoppingBasket {
     public void add(String product, int price) {
        if (basket.containsKey(product)) {
            basket.get(product).increaseAmount();
-       } 
-       basket.put(product, new Purchase (product, 1, price));
+       } else {
+           basket.put(product, new Purchase (product, 1, price));
+       }
+       
     }
     
     public int price() {
