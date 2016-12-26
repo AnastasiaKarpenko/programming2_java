@@ -24,4 +24,12 @@ public class ShoppingBasket {
         }
         return price;
     }
+    
+    public void print() {
+        for (Purchase purchase : basket.values()) {
+            System.out.println(purchase);
+        }
+        
+            
+    }
 }
