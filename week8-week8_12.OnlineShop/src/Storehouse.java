@@ -25,4 +25,20 @@ public class Storehouse {
         }
         return prices.get(product);
     }
+    
+    public int stock(String product) {
+        if (stocks.get(product) == null) {
+            return 0;
+        }
+        return stocks.get(product);
+    }
+    
+    public boolean take(String product) {
+        if (stocks.get(product) == null) {
+            return false;
+        } else if (this.stock(product) > 0) {
+            stocks.put(product, this.stock(product)- 1);
+        }
+        return true;
+    }
 }
