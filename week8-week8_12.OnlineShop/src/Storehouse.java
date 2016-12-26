@@ -2,6 +2,7 @@
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 
 public class Storehouse {
@@ -40,5 +41,9 @@ public class Storehouse {
             stocks.put(product, this.stock(product)- 1);
         }
         return true;
+    }
+    
+    public Set<String> products() {
+        return stocks.keySet();
     }
 }
