@@ -2,23 +2,20 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-
 public class Main {
 
     public static void main(String[] args) {
-        ArrayList<Card> cards = new ArrayList<Card>();
+        Hand hand = new Hand();
 
-        cards.add(new Card(3, Card.CLUBS));
-        cards.add(new Card(2, Card.DIAMONDS));
-        cards.add(new Card(14, Card.CLUBS));
-        cards.add(new Card(12, Card.HEARTS));
-        cards.add(new Card(2, Card.CLUBS));
+        hand.add(new Card(12, Card.HEARTS));
+        hand.add(new Card(4, Card.CLUBS));
+        hand.add(new Card(2, Card.DIAMONDS));
+        hand.add(new Card(14, Card.CLUBS));
+        hand.add(new Card(7, Card.HEARTS));
+        hand.add(new Card(2, Card.CLUBS));
 
-        SortAgainstSuit suitSorter = new SortAgainstSuit();
-        Collections.sort(cards, suitSorter);
+        hand.sortAgainstSuit();
 
-        for (Card c : cards) {
-            System.out.println(c);
-        }
+        hand.print();
     }
 }

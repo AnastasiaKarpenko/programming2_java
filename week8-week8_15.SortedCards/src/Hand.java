@@ -26,19 +26,25 @@ public class Hand implements Comparable <Hand>{
     
     public int compareTo (Hand hand){
         int thisValues = 0;
-        int thisSuites = 0;
+//        int thisSuites = 0;
         int otherValues = 0;
-        int otherSuites = 0;
+//        int otherSuites = 0;
         for (Card card : this.handOfCards) {
             thisValues += card.getValue();
-            thisSuites += card.getSuit();
+//            thisSuites += card.getSuit();
             
         }
         for (Card card : hand.handOfCards) {
             otherValues += card.getValue();
-            otherSuites += card.getSuit();
+//            otherSuites += card.getSuit();
         }
-        return (thisValues + thisSuites) - (otherValues + otherSuites);
+        return thisValues  - otherValues ;
+    }
+    
+    public void sortAgainstSuit() {
+        SortAgainstSuitAndValue sorting = new SortAgainstSuitAndValue();
+        Collections.sort(handOfCards, sorting);        
+              
     }
     
 }
