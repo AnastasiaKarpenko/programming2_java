@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 
 
-public class Box {
+public class Box implements ToBeStored{
     private int maxWeight;
     private ArrayList <ToBeStored> things;
     
@@ -11,7 +11,7 @@ public class Box {
         things = new ArrayList <ToBeStored>();
     }
     
-    public double getTotalWeight () {
+    public double weight () {
         double totalWeight = 0;
         for (ToBeStored thing : things) {
             totalWeight += thing.weight();
@@ -20,7 +20,7 @@ public class Box {
     }
     
     public void add (ToBeStored thing) {
-        if ((this.maxWeight - this.getTotalWeight()) >= thing.weight()) {
+        if ((this.maxWeight - this.weight()) >= thing.weight()) {
             things.add(thing);
         }
         
@@ -28,7 +28,7 @@ public class Box {
     
     public String toString () {
         return "Box: " + things.size() + " things, total weight " 
-                + this.getTotalWeight() +" kg";
+                + this.weight() +" kg";
                 
     }
     
