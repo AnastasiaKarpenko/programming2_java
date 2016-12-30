@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib11">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/week8-week8_13.RichFirstPoorLast/lib/junit-4.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/week8-week8_13.RichFirstPoorLast/lib/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/week8-week8_13.RichFirstPoorLast/lib/edu-test-utils-0.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
