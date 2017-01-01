@@ -1,3 +1,5 @@
+package moving.domain;
+
 /**
  * Created by anastasia on 01/01/2017.
  */

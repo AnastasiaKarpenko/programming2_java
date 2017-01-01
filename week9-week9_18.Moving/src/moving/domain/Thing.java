@@ -1,6 +1,5 @@
-/**
- * Created by anastasia on 01/01/2017.
- */
+package moving.domain;
+
 public interface Thing {
 
     int getVolume();
