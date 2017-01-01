@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="661c44ba-b625-4107-aed4-1110f442d1fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week9-week9_18.Moving/src/moving/logic/Packer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week9-week9_18.Moving/src/moving/logic/Packer.java" afterPath="$PROJECT_DIR$/week9-week9_18.Moving/src/moving/logic/Packer.java" />
     </list>
     <ignored path="aalto-biz-2016-prog-2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,12 +38,10 @@
       <file leaf-file-name="Packer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/week9-week9_18.Moving/src/moving/logic/Packer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44850498">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.64784056">
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -733,12 +730,12 @@
       <workItem from="1483108054167" duration="10958000" />
       <workItem from="1483135041042" duration="262000" />
       <workItem from="1483299395082" duration="1939000" />
-      <workItem from="1483301514735" duration="984000" />
+      <workItem from="1483301514735" duration="1299000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14143000" />
+    <option name="totallyTimeSpent" value="14458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="722" extended-state="6" />
@@ -966,12 +963,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week9-week9_18.Moving/src/moving/logic/Packer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44850498">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.64784056">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
           </folding>
         </state>
       </provider>
