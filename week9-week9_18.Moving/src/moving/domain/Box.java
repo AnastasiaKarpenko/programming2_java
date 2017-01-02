@@ -16,11 +16,12 @@ public class Box implements Thing {
     }
 
     public boolean addThing(Thing thing) {
-        if (thing.getVolume() > (this.maximumCapacity - this.getVolume())) {
-            return false;
-        } else {
-            things.add(thing);
+        if ((thing.getVolume() + this.getVolume()) <= this.maximumCapacity) {
+            this.things.add(thing);
             return true;
+
+        } else {
+            return false;
         }
 
     }

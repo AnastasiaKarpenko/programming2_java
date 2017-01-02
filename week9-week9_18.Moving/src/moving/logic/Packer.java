@@ -1,6 +1,7 @@
 package moving.logic;
 
 import moving.domain.Box;
+import moving.domain.Item;
 import moving.domain.Thing;
 
 import java.util.ArrayList;
@@ -20,11 +21,20 @@ public class Packer {
     }
 
     public List<Box> packThings(List<Thing> things) {
+        Box box = new Box (this.boxesVolume);
+        boxes.add(box);
         for (Thing thing : things) {
-            boxes.add((Box)thing);
+            if (!boxes.get(boxes.size()-1).addThing(thing)) {
+                boxes.add(new Box(this.boxesVolume));
+                boxes.get(boxes.size()-1).addThing(thing);
+            }
         }
 
-        return boxes;
+        return this.boxes;
 
     }
+
+
+
+
 }
