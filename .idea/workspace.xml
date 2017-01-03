@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="661c44ba-b625-4107-aed4-1110f442d1fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week9-week9_20.SensorsAndTempMeasurement/src/application/ConstantSensor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week9-week9_20.SensorsAndTempMeasurement/src/application/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week9-week9_20.SensorsAndTempMeasurement/src/application/Sensor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week9-week9_20.SensorsAndTempMeasurement/week9-week9_20.SensorsAndTempMeasurement.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week9-week9_20.SensorsAndTempMeasurement/src/application/Thermometer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week9-week9_19.MethodArgumentValidation/src/Main.java" afterPath="$PROJECT_DIR$/week9-week9_19.MethodArgumentValidation/src/Main.java" />
     </list>
     <ignored path="aalto-biz-2016-prog-2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,12 +53,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week9-week9_20.SensorsAndTempMeasurement/src/application/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64231735">
+            <state vertical-scroll-proportion="0.0">
               <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Thermometer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/week9-week9_20.SensorsAndTempMeasurement/src/application/Thermometer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6221663">
+              <caret line="35" column="83" selection-start-line="35" selection-start-column="83" selection-end-line="35" selection-end-column="83" />
+              <folding>
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,6 +120,7 @@
         <option value="$PROJECT_DIR$/week9-week9_20.SensorsAndTempMeasurement/src/application/Sensor.java" />
         <option value="$PROJECT_DIR$/week9-week9_20.SensorsAndTempMeasurement/src/application/ConstantSensor.java" />
         <option value="$PROJECT_DIR$/week9-week9_20.SensorsAndTempMeasurement/src/application/Main.java" />
+        <option value="$PROJECT_DIR$/week9-week9_20.SensorsAndTempMeasurement/src/application/Thermometer.java" />
       </list>
     </option>
   </component>
@@ -770,12 +779,12 @@
       <workItem from="1483135041042" duration="262000" />
       <workItem from="1483299395082" duration="1939000" />
       <workItem from="1483301514735" duration="7966000" />
-      <workItem from="1483461500752" duration="1957000" />
+      <workItem from="1483461500752" duration="2836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23082000" />
+    <option name="totallyTimeSpent" value="23961000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="724" extended-state="6" />
@@ -1024,12 +1033,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
           <folding>
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="false" />
+            <element signature="e#605#606#0" expanded="false" />
+            <element signature="e#636#637#0" expanded="false" />
+            <element signature="e#668#669#0" expanded="false" />
+            <element signature="e#703#704#0" expanded="false" />
+            <element signature="e#779#780#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1075,9 +1084,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week9-week9_20.SensorsAndTempMeasurement/src/application/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64231735">
+        <state vertical-scroll-proportion="0.0">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week9-week9_20.SensorsAndTempMeasurement/src/application/Thermometer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6221663">
+          <caret line="35" column="83" selection-start-line="35" selection-start-column="83" selection-end-line="35" selection-end-column="83" />
+          <folding>
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
