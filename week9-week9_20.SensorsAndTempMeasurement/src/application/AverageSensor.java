@@ -57,4 +57,15 @@ public class AverageSensor implements Sensor {
     public void addSensor(Sensor additional) {
         sensors.add(additional);
     }
+
+    public List<Integer> readings() {
+        List<Integer> measures = new ArrayList<>();
+        for (Sensor sensor : sensors) {
+            measures.add(sensor.measure());
+        }
+
+        return measures;
+    }
+
+
 }
