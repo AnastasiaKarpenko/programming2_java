@@ -5,6 +5,7 @@ package application;
  */
 public class ConstantSensor implements Sensor {
     private int measurement;
+    private boolean switched = true;
 
     public ConstantSensor (int measurement) {
         this.measurement = measurement;
@@ -12,16 +13,18 @@ public class ConstantSensor implements Sensor {
 
     @Override
     public boolean isOn() {
-        return true;
+        return this.switched;
     }
 
     @Override
     public void off() {
+        this.switched = false;
 
     }
 
     @Override
     public void on() {
+        this.switched = true;
 
     }
 
