@@ -10,6 +10,13 @@ public class Main {
             ex.getMessage();
         }
 
+        Calculator calculator = new Calculator();
+
+//            System.out.println("Multiplication: " + calculator.multiplication(5));
+            System.out.println("Coefficient " + calculator.binomialCoefficient(0, 10000));
+        
+
+
 
     }
 }
