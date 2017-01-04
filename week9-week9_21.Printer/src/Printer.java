@@ -16,7 +16,7 @@ public class Printer {
         scanner = new Scanner(fileName);
         while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
-            if ( line.contains(word)) {
+            if (line.contains(word)) {
                 System.out.println(line);
             } else if (word.isEmpty() || !fileName.contains(word)) {
                 System.out.println(line);
