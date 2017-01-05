@@ -6,11 +6,13 @@ import java.util.Set;
  */
 public class Person {
     private String name;
+    private Set<Address> address;
     private Set<String> phoneNumbers;
 
     public Person(String name) {
         this.name = name;
-        phoneNumbers = new HashSet<>();
+        this.address = new HashSet<>();
+        this.phoneNumbers = new HashSet<>();
     }
 
     public String getName() {

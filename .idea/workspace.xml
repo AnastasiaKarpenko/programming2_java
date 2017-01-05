@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="661c44ba-b625-4107-aed4-1110f442d1fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Address.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/ContactBook.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week9-week9_26.PhoneSearch/week9-week9_26.PhoneSearch.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week9-week9_25.DuplicateRemover/src/tools/PersonalDuplicateRemover.java" afterPath="$PROJECT_DIR$/week9-week9_25.DuplicateRemover/src/tools/PersonalDuplicateRemover.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/ContactBook.java" afterPath="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/ContactBook.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Person.java" afterPath="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Person.java" />
     </list>
     <ignored path="aalto-biz-2016-prog-2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,31 +47,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactBook.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ContactBook.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/ContactBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            <state vertical-scroll-proportion="1.1339093">
+              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#736#737#0" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#862#863#0" expanded="true" />
+                <element signature="e#937#938#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8423326">
-              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
-                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,8 +139,8 @@
         <option value="$PROJECT_DIR$/week9-week9_25.DuplicateRemover/src/tools/Main.java" />
         <option value="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Address.java" />
         <option value="$PROJECT_DIR$/week9-week9_25.DuplicateRemover/src/tools/PersonalDuplicateRemover.java" />
-        <option value="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/ContactBook.java" />
         <option value="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Person.java" />
+        <option value="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/ContactBook.java" />
       </list>
     </option>
   </component>
@@ -816,12 +815,12 @@
       <workItem from="1483299395082" duration="1939000" />
       <workItem from="1483301514735" duration="7966000" />
       <workItem from="1483461500752" duration="5812000" />
-      <workItem from="1483532540665" duration="8818000" />
+      <workItem from="1483532540665" duration="10476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35755000" />
+    <option name="totallyTimeSpent" value="37413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1193,6 +1192,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Address.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1214,26 +1227,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/ContactBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        <state vertical-scroll-proportion="1.1339093">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8423326">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
           </folding>
         </state>
       </provider>
