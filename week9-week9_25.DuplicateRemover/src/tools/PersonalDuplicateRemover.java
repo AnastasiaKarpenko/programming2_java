@@ -26,7 +26,6 @@ public class PersonalDuplicateRemover implements DuplicateRemover {
             strings.add(characterString);
 
         }
-
     }
 
 
