@@ -1,3 +1,4 @@
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -33,7 +34,50 @@ public class ContactBook {
         return this.contactBook.get(name.toLowerCase()).getNumber();
     }
 
-    
+    public String searchNameByNumber(String number) {
+        for (Person person : this.contactBook.values()) {
+            if (person.getNumber().contains(number)) {
+                return person.getName();
+            }
+        }
+        return "Not found";
+    }
+
+    public Map<String, Person> getContactBook() {
+        return this.contactBook;
+    }
+
+    public void addAddress(String name, String street, String city) {
+        for(String key : this.contactBook.keySet()) {
+            if (key.toLowerCase().contains(name.toLowerCase())) {
+                this.contactBook.get(key).setAddress(street, city);
+            }
+        }
+    }
+
+    public Set<Address> searchAddress(String name) {
+        if(contactBook.get(name.toLowerCase()).getAddress().isEmpty()) {
+            return Collections.emptySet();
+        } else {
+            return contactBook.get(name.toLowerCase()).getAddress();
+
+        }
+    }
+
+    public void removeContact(String name) {
+        if(contactBook.containsKey(name.toLowerCase())) {
+            contactBook.remove(name);
+        } else {
+            System.out.println("Name not found");
+        }
+    }
+
 
 
 }
+
+
+
+
+
+

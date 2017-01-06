@@ -6,12 +6,12 @@ import java.util.Set;
  */
 public class Person {
     private String name;
-    private Set<Address> address;
+    private Set<Address> addresses;
     private Set<String> phoneNumbers;
 
     public Person(String name) {
         this.name = name;
-        this.address = new HashSet<>();
+        this.addresses = new HashSet<>();
         this.phoneNumbers = new HashSet<>();
     }
 
@@ -33,8 +33,22 @@ public class Person {
     }
 
     public Set<String> getNumber() {
-        return this.phoneNumbers;
+        return phoneNumbers;
     }
+
+    public void setAddress(String street, String city) {
+        Address address = new Address();
+        address.setStreet(street);
+        address.setCity(city);
+        addresses.add(address);
+    }
+
+    public Set<Address> getAddress() {
+        return addresses;
+    }
+
+
+
 
 
 

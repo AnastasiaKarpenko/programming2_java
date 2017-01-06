@@ -27,6 +27,6 @@ public class Address {
     }
 
     public String printAddress() {
-        return "address: " + this.street + " " + this.city;
+        return  this.street + " " + this.city;
     }
 }
