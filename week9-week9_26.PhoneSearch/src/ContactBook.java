@@ -1,7 +1,4 @@
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Created by anastasia on 05/01/2017.
@@ -48,7 +45,7 @@ public class ContactBook {
     }
 
     public void addAddress(String name, String street, String city) {
-        for(String key : this.contactBook.keySet()) {
+        for (String key : this.contactBook.keySet()) {
             if (key.toLowerCase().contains(name.toLowerCase())) {
                 this.contactBook.get(key).setAddress(street, city);
             }
@@ -56,7 +53,7 @@ public class ContactBook {
     }
 
     public Set<Address> searchAddress(String name) {
-        if(contactBook.get(name.toLowerCase()).getAddress().isEmpty()) {
+        if (contactBook.get(name.toLowerCase()).getAddress().isEmpty()) {
             return Collections.emptySet();
         } else {
             return contactBook.get(name.toLowerCase()).getAddress();
@@ -65,16 +62,27 @@ public class ContactBook {
     }
 
     public void removeContact(String name) {
-        if(contactBook.containsKey(name.toLowerCase())) {
+        if (contactBook.containsKey(name.toLowerCase())) {
             contactBook.remove(name);
         } else {
             System.out.println("Name not found");
         }
     }
 
-
+    public Set<Person> searchByWord(String word) {
+        Set<Person> people = new HashSet<>();
+        for (Person person : getContactBook().values()) {
+            if (person.getName().toLowerCase().contains(word.toLowerCase())
+                    || person.containsAddress(word.toLowerCase())) {
+                people.add(person);
+            }
+        }
+        return people;
+    }
 
 }
+
+
 
 
 

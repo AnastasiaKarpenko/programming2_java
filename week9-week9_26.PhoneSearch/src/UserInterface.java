@@ -31,12 +31,14 @@ public class UserInterface {
     }
 
     public void getCommand() {
-        while (true) {
+        loop: while (true) {
             System.out.println(" ");
             System.out.println("command: ");
             String command = reader.next();
 
             switch (command) {
+                case "x":
+                    break loop;
                 case "1":
                     addNumber();
                     break;
@@ -50,10 +52,13 @@ public class UserInterface {
                     addAddress();
                     break;
                 case "5":
-                    printInformation();
+                    printInfoByNameInput();
                     break;
                 case "6":
                     removeInformation();
+                    break;
+                case "7":
+                    printInfoByCharInput();
                     break;
             }
         }
@@ -120,19 +125,22 @@ public class UserInterface {
     }
 
 
-    public void printInformation() {
+    public void printInfoByNameInput() {
         System.out.println("whose name: ");
         String name = reader.next();
 
         if(!book.getContactBook().containsKey(name)) {
             System.out.println("Not found");
         } else {
-            printAddress(book.searchAddress(name));
-            System.out.println("");
-            printNumber(book.searchNumber(name));
+            printInformation(name);
         }
+    }
 
-
+    public void printInformation(String name) {
+        System.out.println(book.getContactBook().get(name.toLowerCase()).getName());
+        printAddress(book.searchAddress(name));
+        System.out.println("");
+        printNumber(book.searchNumber(name));
     }
 
     public void removeInformation() {
@@ -140,6 +148,34 @@ public class UserInterface {
         String name = reader.next();
         book.removeContact(name);
     }
+
+    public void printInfoByCharInput() {
+        System.out.println("keyword: ");
+        String name = reader.next();
+
+        Set<Person> people = book.searchByWord(name.toLowerCase());
+
+        if(!name.equals(null) || !name.equals(" ")) {
+            if(!people.isEmpty()) {
+                for(Person person : people) {
+                    printInformation(person.getName().toLowerCase());
+                    System.out.println(" ");
+                }
+            } else {
+                System.out.println("Keyword not found");
+            }
+
+        } else {
+            for (Person person : book.getContactBook().values()) {
+                printInformation(person.getName());
+                System.out.println(" ");
+            }
+        }
+
+    }
+
+
+
 }
 
 

@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="661c44ba-b625-4107-aed4-1110f442d1fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/UserInterface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/week9-week9_26.PhoneSearch/ContactBook.class" afterPath="$PROJECT_DIR$/out/production/week9-week9_26.PhoneSearch/ContactBook.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/week9-week9_26.PhoneSearch/UserInterface.class" afterPath="$PROJECT_DIR$/out/production/week9-week9_26.PhoneSearch/UserInterface.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Address.java" afterPath="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Address.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/ContactBook.java" afterPath="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/ContactBook.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Person.java" afterPath="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Person.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/UserInterface.java" afterPath="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/UserInterface.java" />
     </list>
     <ignored path="aalto-biz-2016-prog-2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,41 +34,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Address.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Address.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-              <folding>
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ContactBook.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/ContactBook.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+              <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-                <element signature="e#840#841#0" expanded="true" />
-                <element signature="e#892#893#0" expanded="true" />
-                <element signature="e#967#968#0" expanded="true" />
-                <element signature="e#1324#1325#0" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#686#687#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#887#888#0" expanded="true" />
+                <element signature="e#1205#1206#0" expanded="true" />
+                <element signature="e#1244#1245#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,25 +57,21 @@
         <entry file="file://$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Person.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
-                <element signature="e#781#782#0" expanded="true" />
-                <element signature="e#1024#1025#0" expanded="true" />
-                <element signature="e#1056#1057#0" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1121#1122#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Main.java">
+      <file leaf-file-name="Address.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Address.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -104,14 +80,14 @@
       <file leaf-file-name="UserInterface.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/UserInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58315337">
-              <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.20642202">
+              <caret line="155" column="43" selection-start-line="155" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#328#329#0" expanded="true" />
                 <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#2567#2568#0" expanded="true" />
-                <element signature="e#2615#2616#0" expanded="true" />
+                <element signature="e#2732#2733#0" expanded="true" />
+                <element signature="e#2780#2781#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -175,10 +151,10 @@
         <option value="$PROJECT_DIR$/week9-week9_25.DuplicateRemover/src/tools/Main.java" />
         <option value="$PROJECT_DIR$/week9-week9_25.DuplicateRemover/src/tools/PersonalDuplicateRemover.java" />
         <option value="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Main.java" />
-        <option value="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Person.java" />
-        <option value="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Address.java" />
-        <option value="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/ContactBook.java" />
         <option value="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/UserInterface.java" />
+        <option value="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Address.java" />
+        <option value="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Person.java" />
+        <option value="$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/ContactBook.java" />
       </list>
     </option>
   </component>
@@ -291,20 +267,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aalto-biz-2016-prog-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aalto-biz-2016-prog-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="week9-week9_25.DuplicateRemover" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -853,40 +815,40 @@
       <workItem from="1483299395082" duration="1939000" />
       <workItem from="1483301514735" duration="7966000" />
       <workItem from="1483461500752" duration="5812000" />
-      <workItem from="1483532540665" duration="26969000" />
+      <workItem from="1483532540665" duration="37112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53906000" />
+    <option name="totallyTimeSpent" value="64049000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32739726" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32739726" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32739726" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43835616" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -903,12 +865,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="contactBook" />
+        <watch expression="getContactBook().values()" />
         <watch expression="person" />
+        <watch expression="person.getAddress().contains(word.toLowerCase())" />
+        <watch expression="person.getAddress()" />
       </configuration>
     </watches-manager>
   </component>
@@ -1208,17 +1172,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week9-week9_25.DuplicateRemover/src/tools/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week9-week9_25.DuplicateRemover/src/tools/DuplicateRemover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22678186">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding />
         </state>
@@ -1226,50 +1182,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week9-week9_25.DuplicateRemover/src/tools/PersonalDuplicateRemover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28509718">
+        <state vertical-scroll-proportion="0.73866093">
           <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#688#689#0" expanded="false" />
-            <element signature="e#732#733#0" expanded="false" />
-            <element signature="e#800#801#0" expanded="false" />
-            <element signature="e#835#836#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-          <folding>
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1281,33 +1196,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/week9-week9_25.DuplicateRemover/src/tools/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.10151188">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/ContactBook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+            <element signature="e#1244#1245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
-            <element signature="e#1324#1325#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week9-week9_26.PhoneSearch/src/UserInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58315337">
-          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.20642202">
+          <caret line="155" column="43" selection-start-line="155" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#328#329#0" expanded="true" />
             <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#2567#2568#0" expanded="true" />
-            <element signature="e#2615#2616#0" expanded="true" />
+            <element signature="e#2732#2733#0" expanded="true" />
+            <element signature="e#2780#2781#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -32,6 +32,16 @@ public class Person {
         return true;
     }
 
+    public boolean containsAddress(String name) {
+        for(Address address : addresses) {
+            if(address.getCity().toLowerCase().contains(name.toLowerCase()) ||
+                    address.getStreet().toLowerCase().contains(name.toLowerCase())) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public Set<String> getNumber() {
         return phoneNumbers;
     }
@@ -46,6 +56,8 @@ public class Person {
     public Set<Address> getAddress() {
         return addresses;
     }
+
+
 
 
 
